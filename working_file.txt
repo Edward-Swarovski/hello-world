@@ -1,0 +1,13 @@
+
+C:\Users\edwar>curl -I http://192.168.1.160/api/pi/lights
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/plain; charset=utf-8
+Allow: GET
+Content-Length: 23
+Date: Thu, 07 Aug 2025 17:06:24 GMT
+Server: Python/3.13 aiohttp/3.12.14
+
+
+C:\Users\edwar>curl http://192.168.1.160/api/pi/lights
+{"1":{"state":{"on":false,"reachable":true,"mode":"homeautomation","colormode":"ct","ct":153,"bri":1},"name":"Living Room Light","uniqueid":"00:2e:f4:35:47:c0:22:f8-98","manufacturername":"Home Assistant","swversion":"123","type":"Color temperature light","modelid":"HASS312"}}
+C:\Users\edwar>
